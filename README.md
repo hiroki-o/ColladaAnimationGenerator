@@ -1,6 +1,8 @@
 # ColladaAnimationGenerator
 AssetGraph extension to export legacy animation to collada file.
 
+[![How to use video](https://img.youtube.com/vi/RO0ab2Cocdg/0.jpg)](https://www.youtube.com/watch?v=RO0ab2Cocdg) 
+
 ## Intended usage
 
 This generator extension is useful when you have legacy animation clips created in Unity (using tools such as [this](https://www.assetstore.unity3d.com/jp/#!/content/19622)) that you want to convert to Mecanim animation with humanoid rig.
