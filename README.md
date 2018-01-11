@@ -1,7 +1,11 @@
 # ColladaAnimationGenerator
 AssetGraph extension to export legacy animation to collada file.
 
-#LICENSE
+## Intended usage
+
+This generator extension is useful when you have legacy animationclips that you want to convert to Mecanim animation with humanoid rig.
+
+# LICENSE
 
 MIT License
 
