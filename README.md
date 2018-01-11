@@ -5,6 +5,12 @@ AssetGraph extension to export legacy animation to collada file.
 
 This generator extension is useful when you have legacy animationclips that you want to convert to Mecanim animation with humanoid rig.
 
+## How to use
+
+- import AssetGraph 1.4 into your project ( https://bitbucket.org/Unity-Technologies/assetbundlegraphtool )
+- import this project into your project
+- Create Generate Asset node and assign "Export Animation to Collada" generator.
+
 # LICENSE
 
 MIT License
