@@ -1,0 +1,104 @@
+﻿{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "ExportLegacyAnimationClips",
+        "m_EditorClassIdentifier": "",
+        "m_allNodes": [
+            {
+                "m_name": "Load from Legacy",
+                "m_id": "5c590df4-ab08-4011-baad-81fd406ffab0",
+                "m_x": 48.0,
+                "m_y": 108.0,
+                "m_nodeInstance": {
+                    "m_className": "UnityEngine.AssetGraph.Loader, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "m_instanceData": "B64|eyJtX2xvYWRQYXRoIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJMZWdhY3kifV19LCJtX2xvYWRQYXRoR3VpZCI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoiMDBlYTkxYzVkMDcwYzRhMzhhZDA1ZWRkZWU4OTMwYzQifV19LCJtX2lnbm9yZVBhdHRlcm5zIjpbXSwibV9yZXNwb25kVG9Bc3NldENoYW5nZSI6ZmFsc2V9"
+                },
+                "m_inputPoints": [],
+                "m_outputPoints": [
+                    {
+                        "id": "9188e77c-db2a-4ce8-9425-bcfa86cf6073",
+                        "label": "+",
+                        "parentId": "5c590df4-ab08-4011-baad-81fd406ffab0",
+                        "isInput": false,
+                        "buttonRect": {
+                            "serializedVersion": "2",
+                            "x": 138.0,
+                            "y": 32.5,
+                            "width": 10.0,
+                            "height": 23.0
+                        }
+                    }
+                ]
+            },
+            {
+                "m_name": "Generate Asset",
+                "m_id": "d1930c91-b888-4aba-ad66-0c1af4d25e8d",
+                "m_x": 300.0,
+                "m_y": 108.0,
+                "m_nodeInstance": {
+                    "m_className": "UnityEngine.AssetGraph.AssetGenerator, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "m_instanceData": "B64|eyJtX2VudHJpZXMiOlt7Im1fbmFtZSI6IlRvQ29sbGFkYUFuaW0iLCJtX2lkIjoiZDMxMzllZTUtNjM4MS00YmRkLTgwMTktMzkwNGMzZmQ4NDcxIiwibV9pbnN0YW5jZSI6eyJtX2NsYXNzTmFtZSI6IkNvbGxhZGFBbmltYXRpb25HZW5lcmF0b3IsIEFzc2VtYmx5LUNTaGFycC1FZGl0b3IsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkI2NHxleUp0WDNSaGNtZGxkRkJ5WldaaFlpSTZleUp0WDJkMWFXUWlPaUl6T0RnMk1EQXhOamt4WkdFeU1USTBOamc0WVRnNE1UWmtNelV5TkRJellTSjlmUT09In1dfX1dLCJtX2RlZmF1bHRPdXRwdXRQb2ludElkIjoiZGY0NmI5Y2EtMjI2Yi00Njc4LTk0YTQtOThjZWQ2ZTkzYzFkIiwibV9vdXRwdXREaXIiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6Ik5ld0FuaW0ifV19LCJtX291dHB1dE9wdGlvbiI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoxfV19fQ=="
+                },
+                "m_inputPoints": [
+                    {
+                        "id": "3a46281b-3620-445c-879f-051642e500cd",
+                        "label": "-",
+                        "parentId": "d1930c91-b888-4aba-ad66-0c1af4d25e8d",
+                        "isInput": true,
+                        "buttonRect": {
+                            "serializedVersion": "2",
+                            "x": 0.0,
+                            "y": 29.5,
+                            "width": 21.0,
+                            "height": 29.0
+                        }
+                    }
+                ],
+                "m_outputPoints": [
+                    {
+                        "id": "df46b9ca-226b-4678-94a4-98ced6e93c1d",
+                        "label": "+",
+                        "parentId": "d1930c91-b888-4aba-ad66-0c1af4d25e8d",
+                        "isInput": false,
+                        "buttonRect": {
+                            "serializedVersion": "2",
+                            "x": 135.0,
+                            "y": 32.5,
+                            "width": 10.0,
+                            "height": 23.0
+                        }
+                    },
+                    {
+                        "id": "d3139ee5-6381-4bdd-8019-3904c3fd8471",
+                        "label": "ToColladaAnim",
+                        "parentId": "d1930c91-b888-4aba-ad66-0c1af4d25e8d",
+                        "isInput": false,
+                        "buttonRect": {
+                            "serializedVersion": "2",
+                            "x": 135.0,
+                            "y": 64.5,
+                            "width": 10.0,
+                            "height": 23.0
+                        }
+                    }
+                ]
+            }
+        ],
+        "m_allConnections": [
+            {
+                "m_id": "621eba47-26ef-4eda-aa7c-d4153fd21d55",
+                "m_fromNodeId": "5c590df4-ab08-4011-baad-81fd406ffab0",
+                "m_fromNodeConnectionPointId": "9188e77c-db2a-4ce8-9425-bcfa86cf6073",
+                "m_toNodeId": "d1930c91-b888-4aba-ad66-0c1af4d25e8d",
+                "m_toNodeConnectionPoiontId": "3a46281b-3620-445c-879f-051642e500cd",
+                "m_label": "+"
+            }
+        ],
+        "m_lastModified": "131601488396645450",
+        "m_version": 2,
+        "m_graphDescription": "",
+        "m_useAsAssetPostprocessor": false,
+        "m_graphExecOrderPriority": 0
+    }
+}
